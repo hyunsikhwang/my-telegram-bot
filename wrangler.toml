@@ -1,7 +1,9 @@
-name = "my-python-telegram-bot"
-main = "src/entry.py"
-compatibility_date = "2025-11-02" # 최신 날짜 권장
-compatibility_flags = ["python_workers"]
+# 1. 이름을 Cloudflare 대시보드에 생성된 이름("my-telegram-bot")과 일치시키세요.
+name = "my-telegram-bot"
 
-[vars]
-# 여기에 토큰을 직접 적지 말고 아래 3번 단계에서 관리자 페이지에 등록하세요.
+# 2. 파일 경로가 정확한지 확인하세요. (src 폴더 안에 entry.py가 있는 경우)
+main = "src/entry.py"
+
+# 3. Python 실행을 위해 매우 중요한 설정입니다. 날짜를 최신으로 유지하세요.
+compatibility_date = "2025-12-01" 
+compatibility_flags = ["python_workers"]
