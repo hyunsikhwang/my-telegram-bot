@@ -1,0 +1,7 @@
+name = "my-python-telegram-bot"
+main = "src/entry.py"
+compatibility_date = "2025-11-02" # 최신 날짜 권장
+compatibility_flags = ["python_workers"]
+
+[vars]
+# 여기에 토큰을 직접 적지 말고 아래 3번 단계에서 관리자 페이지에 등록하세요.
